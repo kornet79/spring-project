@@ -3,12 +3,14 @@ package com.example.fistproject2.contoller;
 import com.example.fistproject2.dto.ArticleFrom;
 import com.example.fistproject2.entity.Article;
 import com.example.fistproject2.repository.ArticleRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
+@Slf4j
 public class ArticleController {
 
     @Autowired
